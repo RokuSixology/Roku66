@@ -29,7 +29,8 @@ twitter_username: Roku_sixology
 github_username:  RokuSixology
 
 # Build settings
-theme: minima
+theme: jekyll-theme-clean-blog
+
 plugins:
   - jekyll-feed
 
