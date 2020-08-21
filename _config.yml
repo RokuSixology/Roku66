@@ -29,7 +29,7 @@ twitter_username: Roku_sixology
 github_username:  RokuSixology
 
 # Build settings
-theme: jekyll-theme-clean-blog
+theme: jekyll-theme-kagami
 
 plugins:
   - jekyll-feed
