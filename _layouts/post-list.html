@@ -33,9 +33,7 @@ layout: default
     <a class="post-item-link" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">
       {{ post.title | escape }}
     </a>
-    {% if post.description %}
-    <p class="post-description">{{ post.description }}</p>
-    {% endif %}
+    <p class="post-description">{{ post.content | strip_html | truncatewords: 100 }}</p>
     <div class="post-item-meta">
       {{ post.date | date: "%B %-d, %Y" }}
       /
